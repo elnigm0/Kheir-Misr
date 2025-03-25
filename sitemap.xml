@@ -3,7 +3,7 @@
   
   <!-- الصفحة الرئيسية -->
   <url>
-    <loc>https://www.kheir-misr.com/index.html</loc>
+    <loc>https://elnigm0.github.io/Kheir-Misr/index.html</loc>
     <lastmod>2025-03-24</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
@@ -11,7 +11,7 @@
 
   <!-- النسخة الإنجليزية -->
   <url>
-    <loc>https://www.kheir-misr.com/english.html</loc>
+    <loc>https://elnigm0.github.io/Kheir-Misr/english.html</loc>
     <lastmod>2025-03-24</lastmod>
     <changefreq>weekly</changefreq> <!-- تم تغييرها إلى weekly -->
     <priority>0.8</priority>
@@ -19,7 +19,7 @@
 
   <!-- صفحة المنتجات -->
   <url>
-    <loc>https://www.kheir-misr.com/products.html</loc>
+    <loc>https://elnigm0.github.io/Kheir-Misr/#products</loc>
     <lastmod>2025-03-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
@@ -27,7 +27,7 @@
 
   <!-- صفحة الاتصال -->
   <url>
-    <loc>https://www.kheir-misr.com/contact.html</loc>
+    <loc>https://elnigm0.github.io/Kheir-Misr/#contact</loc>
     <lastmod>2025-03-24</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
