@@ -1,0 +1,10 @@
+# ملف robots.txt لتحسين الأرشفة
+
+User-agent: *
+Disallow: /public/
+Disallow: /admin/
+
+Allow: /index.html
+Allow: /english.html
+
+Sitemap: https://www.kheir-misr.com/sitemap.xml
