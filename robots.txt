@@ -7,4 +7,4 @@ Disallow: /admin/
 Allow: /index.html
 Allow: /english.html
 
-Sitemap: https://www.kheir-misr.com/sitemap.xml
+Sitemap: https://elnigm0.github.io/Kheir-Misr/sitemap.xml
