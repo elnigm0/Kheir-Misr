@@ -1,9 +1,8 @@
 # ملف robots.txt لتحسين الأرشفة
 
 User-agent: *
-Disallow: /public/
-Disallow: /admin/
-
+Allow: /public/
+Allow: /admin/
 Allow: /index.html
 Allow: /english.html
 
