@@ -1,7 +1,6 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-    
 <!-- 1️⃣ ترميز اللغة وضبط العرض على جميع الأجهزة -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -41,859 +40,328 @@
   <link rel="sitemap" type="application/xml" title="Sitemap" href="https://elnigm0.github.io/Kheir-Misr/sitemap.xml">
 <link rel="canonical" href="https://elnigm0.github.io/Kheir-Misr/" />
 
-<!-- الخطوط  -->   	
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;700&display=swap" rel="stylesheet">
-
-
-<!-- الايقونات -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!-- Canonical -->
+    <link rel="canonical" href="https://yourdomain.com">
     
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
     
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
     
-    <link rel="stylesheet" href="style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
     
-<link rel="icon" href="https://elnigm0.github.io/Kheir-Misr/logo.png?v=2" type="image/jpeg">
-    <title>مكتب خير مصر للتصدير </title>
+    <link rel="icon" href="images/logo.jpg">
+    <title>مكتب خير مصر للتصدير الزراعي</title>
 </head>
-<body class="arabic-page">
-  
-  <header dir="ltr">
-      
-          <a href="#" class="logo"><span><img src="logo.jpg" alt="khayr masr"></span></a>
-         
-          
-      <nav class="navigation">
-          <a href="#services">أسواق</a>
-          <a href="#projects">المنتجات</a>
-          <a href="#contact">اتصل بنا </a>
-
-      </nav>
-      <br>
-      <br>
-      <br>
-               <details>
-                   <summary><i class="fa-solid fa-globe"></i></summary>
-                   <a href="index.html" class="language">العربية🇪🇬</a>                    
-                    <br>
-                    <a href="english.html" class="language-1">🇬🇧English </a>
-               </details>
+<body>
+    <!-- Header & Navigation -->
+    <header>
+        <div class="container">
+            <nav class="navbar">
+                <a href="index.html" class="logo">
+                    <img src="images/logo.jpg" alt="خير مصر">
+                    <span>خير مصر</span>
+                </a>
                 
-  </header> 
-    
-    
-    <section class="main">
-        <div>
-            <h2>مكتب خير مصر <br><span> مكتب خير مصر لتصدير الحاصلات الزراعية </span></h2>
-            <h3>أ/رجب عادل</h3>
-            <a href="#projects" class="main-btn">شاهد منتجاتي</a>
-        
-        
-        <div class="social-icons">
-            <a href="https://www.facebook.com/share/19afZV1KzW/" class="first"><i class="fab fa-facebook"></i></a>
-            
-           <a href="https://whatsapp.com/channel/0029VbAUJAa2ER6k1upeux1w" class="second"><i class="fab fa-whatsapp"></i></a>
-            
-           <a href="https://youtube.com/@apomezoo8648?si=Hdl9vO9Eo5owTz3l" class="third"><i class="fab fa-youtube"></i></a>
-            
+                <div class="nav-links">
+                    <a href="index.html" class="active">الرئيسية</a>
+                    <a href="project.html">منتجاتنا</a>
+                    <a href="#contact">اتصل بنا</a>
+                    <a href="#about">من نحن</a>
+                </div>
+                
+                <div class="nav-buttons">
+                    <button class="btn btn-outline" onclick="window.open('project.html')">
+                        <i class="fas fa-shopping-basket"></i> تصفح المنتجات
+                    </button>
+                    <div class="language-switcher">
+                        <button class="lang-btn">
+                            <i class="fas fa-globe"></i> عربي
+                        </button>
+                    </div>
+                </div>
+                
+                <!-- Mobile Menu Button -->
+                <button class="menu-toggle" id="menuToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </nav>
         </div>
-        </div>
-    </section>
-    
-    <section class="cards" id="services">
-        
-        <h2 class="title">اسواق</h2>
-        
-        <div class="content">
-            
-            
-            
-          <div class="card">
-          <div class="icon">
-                    <div class="fr-icon"><i class="fas fa-plane"></i></div>                    
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">خير مصر للتصدير الزراعي</h1>
+                <p class="hero-subtitle">جودة لا تنافس، تصدير عالمي، ثقة متوارثة</p>
+                <p class="hero-description">
+                    نقدم أجود أنواع المحاصيل الزراعية والفواكه المصرية للتصدير إلى الأسواق العالمية
+                    بأعلى معايير الجودة والسلامة الغذائية
+                </p>
+                <div class="hero-buttons">
+                    <a href="project.html" class="btn btn-primary">
+                        <i class="fas fa-store"></i> تصفح السوق
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-phone-alt"></i> اتصل بنا
+                    </a>
                 </div>
-                <div class="info">
-                    <h3>عملاءنا بالخارج</h3>
-                    <p> مكتب خير مصر لتصدير الحاصلات الزراعية : عمان ، كندا ، ألمانيا ، السويد ، فرنسا ، السعودية ، الامارات ، الاردن ، الكويت ، البحرين</p>
             </div>
+            <div class="hero-image">
+                <img src="images/background.jpg" alt="محاصيل زراعية">
             </div>
-            
-            
-            
-              
-           <div class="card">
-           <div class="icon">
-                    <div class="nd-icon"><i class="fas fa-tree"></i></div>                   
-                </div>
-                <div class="info">
-                    <h3>محاصيل </h3>
-                   <p>شمام ، تفاح ، فاكهة التنين ، جوافة ، كاكا ، خيار ، قشطة ، ليمون اخضر ، ليمون ، مانجا ،  بلح ، بسلة ، رمان ، تين ، ثموم</p> </div>
-            </div>
-            
-            
-            
-            <div class="card">
-            <div class="icon">
-                    <div class="rd-icon"><i class="fas fa-map-marker-alt"></i></div>                   
-                </div>
-                <div class="info">
-                    <h3>موقعنا</h3>
-                    <p>البحيرة الخط الوسطاني قرية شبل ، قمبانية ابو قير</p>
-            </div>
-            </div>
-            
-            
-            
         </div>
     </section>
-    
-    
-    <section class="projects" id="projects">
-        <h2 class="title">منتجات</h2>
-        
-        <div class="content">
-            
-            <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="gone.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category">جوافه تعبئه 2.5 كيلو </p>
-                    <strong class="project-title">
-                        <p> تصدير لدول غربية كندا ، ألمانيا  ، السويد ، فرنسا</p>
-                        
-                    </strong>
-                </div>               
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">منتجاتنا المميزة</h2>
+                <p class="section-subtitle">أجود أنواع الفواكه والمحاصيل الزراعية</p>
             </div>
             
-                        
-                        
-                                    <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="gtow.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category">جوافه تعبئه صندوق بلاستيك 2 كيلو</p>
-                    <strong class="project-title">
-                        <p>تصدير لدول عربيه  السعوديه ، الاردن ، الكويت ، عمان </p>
-                        
-                    </strong>
-                </div>               
+            <div class="products-grid" id="featuredProducts">
+                <!-- سيتم ملؤها بواسطة JavaScript -->
             </div>
             
-            
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="gthree.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category">جوافه تعبئه 1.75 كيلو </p>
-                    <strong class="project-title">
-                        <p> تصدير لدول عربيه ، السعوديه ، الكويت ، البحرين ، عمان ، دبي</p>
-                        
-                    </strong>
-                </div>               
+            <div class="text-center">
+                <a href="project.html" class="btn btn-primary btn-lg">
+                    <i class="fas fa-eye"></i> عرض جميع المنتجات
+                </a>
             </div>
-            
-            
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="kshone.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category">النوع: قشطه عبد الرازق </p>
-                    <strong class="project-title">
-                        <p>الوزن/5 كيلو جرام.    4.5 كيلو جرام</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="lame.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> ليمون بنزهير</p>
-                    <strong class="project-title">
-                        <p> وزن 5.5 كيلو تصدير لدول عربية</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="lemon.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> ليمون يوريكا (أ)</p>
-                    <strong class="project-title">
-                        <p> تعبئة 15 كيلو</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category">مانجو ياسمينا روز </p>
-                    <strong class="project-title">
-                        <p>تعبئة 4 كيلو صادرات لدول عربية وأوروبية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango2.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> مانجو عويس</p>
-                    <strong class="project-title">
-                       <p>تعبئة 3 كيلو دول اوروبية</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-            
-                                    <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango-yasmena.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> مانجو ياسمينا روز</p>
-                    <strong class="project-title">
-                       <p> تعبئة 4 كيلو دول اوروبية وعربية</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-          
-          
-          
-                                  <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango-tomy.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> مانجو تومي</p>
-                    <strong class="project-title">
-                       <p>تعبئة 4.5 كيلو دول أوروبية وعربية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-            
-            
-                                    <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango-kit.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> مانجو كيت</p>
-                    <strong class="project-title">
-                       <p>تعبئة 4.5 كيلو دول أوروبية وعربية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-            
-            
-                                    <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="yamama.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> مانجو صدر اليمامة</p>
-                    <strong class="project-title">
-                       <p>تعبئة 3.5 كيلو دول أوروبية وعربية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-
-
-
-
-
-
-
-
-
-                                                <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango7.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> مانجو نعومي </p>
-                    <strong class="project-title">
-                       <p>تعبئة دول أوروبية وعربية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-
-
-
-
-
-                                    <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango8.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> مانجو عويس </p>
-                    <strong class="project-title">
-                       <p> تعبئة 2 كيلو دول وعربية السعودبة</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-
-
-
-
-
-
-
-
-                                                <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango9.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> مانجو كنجستون </p>
-                    <strong class="project-title">
-                       <p>تعبئة 3 كيلو  وعربية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-
-
-
-
-
-
-
-
-
-                                                <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango11.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> مانجو تيمور  </p>
-                    <strong class="project-title">
-                       <p>تعبئة 3 كيلو دول  وعربية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-
-
-
-
-
-
-                                                <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango-tomy.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> مانجو تومي </p>
-                    <strong class="project-title">
-                       <p>تعبئة 5 كيلو دول أوروبية وعربية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-
-
-
-
-
-
-
-
-            
-                                                <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango10.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> مانجو كيت </p>
-                    <strong class="project-title">
-                       <p>تعبئة 5 كيلو دول أوروبية وعربية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-
-
-
-
-            
-                                                <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango12.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> مانجو هايدي </p>
-                    <strong class="project-title">
-                       <p>تعبئة 4 كيلو دول أوروبية وعربية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-            
-            
-                                    <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="patata.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> بطاطا حلوة</p>
-                    <strong class="project-title">
-                       <p>تعبئة 4 كيلو دول أوروبية وعربية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-            
-            
-            
-            
-                                    <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="peach-1.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> خوخ فلوريدا</p>
-                    <strong class="project-title">
-                       <p>تعبئة 2.5 كيلو صواني  دول أوروبيةوعربية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-            
-            
-                                    <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="peach-ph.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> خوخ فلوريدا </p>
-                    <strong class="project-title">
-                       <p>تعبئة 4 وزن الصندوق  كيلو دول أوروبيةوعربية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-            
-            
-                                    <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="shalante.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> شالنطيه اساور</p>
-                    <strong class="project-title">
-                       <p>تعبئة دول أوروبيةوعربية </p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-             
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango3.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category">مانجو فص  </p>
-                    <strong class="project-title">
-                        <p>تعبئة 2.5 كيلو</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango4.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category">مانجو زبدية  </p>
-                    <strong class="project-title">
-                        <p>تعبئة 4.5 كيلو</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-
-            
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="mango6.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> مانجو نعومي</p>
-                    <strong class="project-title">
-                      <p>تعبئة 4.5 كيلو</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="pl.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category">بلح برحي </p>
-                    <strong class="project-title">
-                        <p>تعبئة 5 كيلو</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="ps.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> بسلة ماستر</p>
-                    <strong class="project-title">
-                      <p>تعبئة 5 كيلو تصدير لدول عربية واوربية</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="strawberry.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category">فراولة  </p>
-                    <strong class="project-title">
-                        <p>تعبئة 4 كيلو دول اوروبية</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="rm.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category">رمان وندر فل </p>
-                    <strong class="project-title">
-                        <p>صادرات لدول اوروبية</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="ten.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> تين برشومي</p>
-                    <strong class="project-title">
-                        <p>تعبئة 2 كيلو</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="thom.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> ثوم فريش</p>
-                    <strong class="project-title">
-                        <p>تعبئة 3.5 كيلو</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="kaka1.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category">كاكا  </p>
-                    <strong class="project-title">
-                     <p>كرتونة  1.75 كيلو</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="kaka.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category">كاكا </p>
-                    <strong class="project-title">
-                       <p>صندوق تعبئة 2 كيلو</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="khokh.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> خوخ نكتارين</p>
-                    <strong class="project-title">
-                        <p>تعبئة 4 كيلو بانت وزن البانت 1 كيلو</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="dragon.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> دراجون فروت</p>
-                    <strong class="project-title">
-                     <p> تعبئة 3 كيلو دول اوروبية وعربية</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="ananas1.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category"> كنتلوب جولتستون </p>
-                    <strong class="project-title">
-                        <p>تعبئة 5 كيلو</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
-                        <div class="project-card">
-                
-                <div class="project-image">
-                    <img src="khy.jpg" alt="error">
-                </div>
-                
-                <div class="projects-info">
-                    <p class="project-category">خيار  </p>
-                    <strong class="project-title">
-                    <p>تعبئة 4 كيلو دول اوروبية</p>
-                        
-                    </strong>
-                </div>               
-            </div>
-            
-            
- 
- 
-            
-            
-        </div>                   
+        </div>
     </section>
-    
-    <!-- contact 3-->
-    <section class="cards contact" id="contact">
-        <h2 class="title">اتصل بنا</h2>
-        
-                <div class="content">
+
+    <!-- Why Choose Us -->
+    <section class="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">لماذا تختار خير مصر؟</h2>
+                <p class="section-subtitle">نتميز بمعايير عالمية في التصدير</p>
+            </div>
             
-            
-            
-          <div class="card">
-          <div class="icon">
-                    <div class="phone-icon"><i class="fas fa-phone-alt"></i></div>                    
+            <div class="features-grid">
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>جودة عالية</h3>
+                    <p>نلتزم بأعلى معايير الجودة العالمية في إنتاج وتصدير المحاصيل</p>
                 </div>
-                <div class="info">
-                    <h3>الهاتف</h3>
-                    <p dir="ltr">010 26141639</p>
-            </div>
-            </div>
-            
-            
-            
-              
-           <div class="card">
-           <div class="icon">
-                    <div class="email-icon"><i class="fas fa-envelope"></i></div>                    
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-globe"></i>
+                    </div>
+                    <h3>تصدير عالمي</h3>
+                    <p>تصدير إلى أكثر من 20 دولة حول العالم</p>
                 </div>
-                <div class="info">
-                    <h3>البريد الإلكتروني</h3>
-                    <p dir="ltr">ragp.pepo12@gmail.com</p>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-shipping-fast"></i>
+                    </div>
+                    <h3>شحن سريع</h3>
+                    <p>شحن مباشر وسريع مع الحفاظ على جودة المنتج</p>
+                </div>
+                
+                <div class="feature-card">
+                    <div class="feature-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>شهادات دولية</h3>
+                    <p>جميع المنتجات معتمدة ومعها شهادات صحية</p>
+                </div>
             </div>
-            </div>
-            
-            
+        </div>
     </section>
-    
-    
-    <footer class="footer" dir="ltr">
-        <p class="footer-title">Copyright @ <span>khyair masr</span></p>
-        
-        
-        <div class="social-icons">
+
+    <!-- About Section -->
+    <section class="about" id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>من نحن</h2>
+                    <p>
+                        مكتب خير مصر للتصدير الزراعي، بقيادة الأستاذ/ رجب عادل، يمثل قصة نجاح مصرية في مجال التصدير الزراعي. 
+                        نفتخر بتقديم أجود المحاصيل المصرية إلى الأسواق العالمية منذ سنوات طويلة.
+                    </p>
+                    <p>
+                        نعمل في البحيرة - الخط الوسطاني - قرية شبل، ونسعى دائمًا لرفع اسم مصر عاليًا في مجال التصدير الزراعي.
+                    </p>
+                    <div class="stats">
+                        <div class="stat">
+                            <h3>+50</h3>
+                            <p>منتج زراعي</p>
+                        </div>
+                        <div class="stat">
+                            <h3>+20</h3>
+                            <p>دولة</p>
+                        </div>
+                        <div class="stat">
+                            <h3>100%</h3>
+                            <p>رضا العملاء</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <img src="images/background.jpg" alt="مكتب خير مصر">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">اتصل بنا</h2>
+                <p class="section-subtitle">نحن هنا لخدمتكم على مدار الساعة</p>
+            </div>
             
-            <a href="https://www.facebook.com/share/19afZV1KzW/" class="first"><i class="fab fa-facebook"></i></a>
+            <div class="contact-content">
+                <div class="contact-info">
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-phone-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>الهاتف</h3>
+                            <p dir="ltr">010 26141639</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>البريد الإلكتروني</h3>
+                            <p dir="ltr">ragp.pepo12@gmail.com</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>العنوان</h3>
+                            <p>البحيرة - الخط الوسطاني - قرية شبل</p>
+                        </div>
+                    </div>
+                    
+                    <div class="info-card">
+                        <div class="info-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="info-content">
+                            <h3>ساعات العمل</h3>
+                            <p>24/7 على مدار الساعة</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-map">
+                    <div class="map-container">
+                        <h3>موقعنا على الخريطة</h3>
+                        <div id="map" class="map-placeholder">
+                            <button class="btn btn-primary btn-lg" onclick="openGPS()">
+                                <i class="fas fa-map-marked-alt"></i> افتح GPS
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-col">
+                    <div class="footer-logo">
+                        <img src="images/logo.jpg" alt="خير مصر">
+                        <h3>مكتب خير مصر</h3>
+                    </div>
+                    <p class="footer-description">
+                        رواد في تصدير المحاصيل الزراعية المصرية إلى الأسواق العالمية بأعلى معايير الجودة
+                    </p>
+                    <div class="social-links">
+                        <a href="https://www.facebook.com/share/19afZV1KzW/" class="social-link facebook">
+                            <i class="fab fa-facebook-f"></i>
+                        </a>
+                        <a href="https://whatsapp.com/channel/0029VbAUJAa2ER6k1upeux1w" class="social-link whatsapp">
+                            <i class="fab fa-whatsapp"></i>
+                        </a>
+                        <a href="https://youtube.com/@apomezoo8648?si=Hdl9vO9Eo5owTz3l" class="social-link youtube">
+                            <i class="fab fa-youtube"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>روابط سريعة</h4>
+                    <ul>
+                        <li><a href="index.html">الرئيسية</a></li>
+                        <li><a href="project.html">منتجاتنا</a></li>
+                        <li><a href="#about">من نحن</a></li>
+                        <li><a href="#contact">اتصل بنا</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>منتجاتنا</h4>
+                    <ul>
+                        <li><a href="project.html">فواكه</a></li>
+                        <li><a href="project.html">محاصيل</a></li>
+                        <li><a href="project.html">تصدير بالجملة</a></li>
+                        <li><a href="project.html">عروض خاصة</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-col">
+                    <h4>اشترك في النشرة البريدية</h4>
+                    <p>ابق على اطلاع بآخر العروض والمنتجات</p>
+                    <form class="newsletter-form">
+                        <input type="email" placeholder="بريدك الإلكتروني" required>
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
             
-           <a href="https://whatsapp.com/channel/0029VbAUJAa2ER6k1upeux1w" class="second"><i class="fab fa-whatsapp"></i></a>
-            
-           <a href="https://youtube.com/@apomezoo8648?si=Hdl9vO9Eo5owTz3l" class="third"><i class="fab fa-youtube"></i></a>
-            
-        </div>  
-                   <div class="eng">
-            <a href="https://elnigm0.github.io/mo_code/"><span>اضغط هنا</span> للتواصل مع مصمم الموقع</a>
+            <div class="footer-bottom">
+                <p>&copy; <span id="currentYear"></span> مكتب خير مصر للتصدير الزراعي. جميع الحقوق محفوظة.</p>
+                <p>تصميم وتطوير: <a href="https://elnigm0.github.io/Portfolio/" target="_blank">مطور الموقع</a></p>
+            </div>
         </div>
     </footer>
 
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    <script>
+        function openGPS() {
+            // إحداثيات مكان المكتب (يمكن تغييرها للإحداثيات الصحيحة)
+            const latitude = 31.0413;
+            const longitude = 30.4753;
+            
+            // افتح موقع GPS على Google Maps
+            window.open(`https://www.google.com/maps?q=${latitude},${longitude}`, '_blank');
+        }
+        
+        // تحديث السنة الحالية
+        document.getElementById('currentYear').textContent = new Date().getFullYear();
+    </script>
+    
 </body>
 </html>
-
-
-
-
