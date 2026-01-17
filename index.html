@@ -1,30 +1,12 @@
 <!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-<!-- 1️⃣ ترميز اللغة وضبط العرض على جميع الأجهزة -->
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="google-site-verification" content="Xcmi0engG1c1WS3iVAgjZfXmtJyIRPwJMIAppy7hKnY" />
-    <!-- باقي المحتوى -->
-
-<!-- 3️⃣ Social Media Account Links -->
-<link rel="me" href="https://www.facebook.com/share/19afZV1KzW/">
-<link rel="me" href="https://whatsapp.com/channel/0029VbAUJAa2ER6k1upeux1w">
-<link rel="me" href="https://youtube.com/@apomezoo8648?si=Hdl9vO9Eo5owTz3l">
-
-
-<!-- 4️⃣ Facebook Appearance Optimization (Open Graph) -->
-<meta property="og:title" content="Kheir Misr for Exporting Agricultural Products">
-<meta property="og:description" content="Kheir Misr Office for Exporting Agricultural Products, Al-Beheira, Kafr El-Dawar, Al-Khat Al-Wastani, Shibl Village, managed by Ragab Adel">
-<meta property="og:image" content="https://elnigm0.github.io/Kheir-Misr/logo.png">
-<meta property="og:url" content="https://elnigm0.github.io/Kheir-Misr/">
-<meta property="og:type" content="website">
-
-
-
-<!-- 4️⃣ تحسين الظهور على فيسبوك (Open Graph) -->
-<meta property="og:title" content="Kheir Misr for Exporting Agricultural Products">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="سوق منتجات خير مصر - أجود الفواكه والمحاصيل الزراعية للتصدير">
+    <meta name="keywords" content="سوق فواكه, مانجو للبيع, تصدير فواكه, محاصيل زراعية">
+ <meta property="og:title" content="Kheir Misr for Exporting Agricultural Products">
 <meta property="og:description" content="Kheir Misr Office for Exporting Agricultural Products, Al-Beheira, Kafr El-Dawar, Al-Khat Al-Wastani, Shibl Village, managed by Ragab Adel">
 <meta property="og:image" content="https://elnigm0.github.io/Kheir-Misr/logo.jpg">
 <meta property="og:url" content="https://elnigm0.github.io/Kheir-Misr/">
@@ -38,11 +20,7 @@
 <!-- إضافة رابط sitemap.xml في HTML -->
 
   <link rel="sitemap" type="application/xml" title="Sitemap" href="https://elnigm0.github.io/Kheir-Misr/sitemap.xml">
-<link rel="canonical" href="https://elnigm0.github.io/Kheir-Misr/" />
-
-    <!-- Canonical -->
-    <link rel="canonical" href="https://yourdomain.com">
-    
+<link rel="canonical" href="https://elnigm0.github.io/Kheir-Misr/" />   
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -56,7 +34,7 @@
     <link rel="stylesheet" href="css/style.css">
     
     <link rel="icon" href="images/logo.jpg">
-    <title>مكتب خير مصر للتصدير الزراعي</title>
+    <title>سوق المنتجات - خير مصر</title>
 </head>
 <body>
     <!-- Header & Navigation -->
@@ -69,15 +47,15 @@
                 </a>
                 
                 <div class="nav-links">
-                    <a href="index.html" class="active">الرئيسية</a>
-                    <a href="project.html">منتجاتنا</a>
-                    <a href="#contact">اتصل بنا</a>
-                    <a href="#about">من نحن</a>
+                    <a href="index.html">الرئيسية</a>
+                    <a href="project.html" class="active">منتجاتنا</a>
+                    <a href="index.html#contact">اتصل بنا</a>
+                    <a href="index.html#about">من نحن</a>
                 </div>
                 
                 <div class="nav-buttons">
-                    <button class="btn btn-outline" onclick="window.open('project.html')">
-                        <i class="fas fa-shopping-basket"></i> تصفح المنتجات
+                    <button class="btn btn-outline" onclick="location.href='index.html'">
+                        <i class="fas fa-home"></i> الرئيسية
                     </button>
                     <div class="language-switcher">
                         <button class="lang-btn">
@@ -94,190 +72,82 @@
         </div>
     </header>
 
-    <!-- Hero Section -->
-    <section class="hero">
+    <!-- Products Market -->
+    <section class="market-hero">
         <div class="container">
-            <div class="hero-content">
-                <h1 class="hero-title">خير مصر للتصدير الزراعي</h1>
-                <p class="hero-subtitle">جودة لا تنافس، تصدير عالمي، ثقة متوارثة</p>
-                <p class="hero-description">
-                    نقدم أجود أنواع المحاصيل الزراعية والفواكه المصرية للتصدير إلى الأسواق العالمية
-                    بأعلى معايير الجودة والسلامة الغذائية
-                </p>
-                <div class="hero-buttons">
-                    <a href="project.html" class="btn btn-primary">
-                        <i class="fas fa-store"></i> تصفح السوق
+            <div class="market-hero-content">
+                <h1>سوق المنتجات الزراعية</h1>
+                <p>أجود أنواع الفواكه والمحاصيل المصرية للتصدير</p>
+                <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="ابحث عن منتج...">
+                    <button class="btn btn-primary">
+                        <i class="fas fa-search"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Categories Filter -->
+    <section class="categories">
+        <div class="container">
+            <div class="categories-filter">
+                <h3>التصنيفات:</h3>
+                <div class="filter-buttons">
+                    <button class="filter-btn active" data-filter="all">الكل</button>
+                    <button class="filter-btn" data-filter="mango">مانجو</button>
+                    <button class="filter-btn" data-filter="pineapple">أناناس</button>
+                    <button class="filter-btn" data-filter="guava">جوافة</button>
+                    <button class="filter-btn" data-filter="lemon">ليمون</button>
+                    <button class="filter-btn" data-filter="peach">خوخ</button>
+                    <button class="filter-btn" data-filter="other">أخرى</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Products Grid -->
+    <section class="products-market">
+        <div class="container">
+            <div class="market-header">
+                <h2>جميع المنتجات</h2>
+                <div class="sort-options">
+                    <select id="sortSelect">
+                        <option value="default">ترتيب بحسب</option>
+                        <option value="name">الأبجدي</option>
+                        <option value="price">السعر</option>
+                        <option value="rating">التقييم</option>
+                    </select>
+                </div>
+            </div>
+            
+            <div class="products-container" id="productsContainer">
+                <!-- المنتجات سيتم إضافتها بواسطة JavaScript -->
+            </div>
+            
+            <div class="pagination">
+                <button class="page-btn"><i class="fas fa-chevron-right"></i></button>
+                <button class="page-btn active">1</button>
+                <button class="page-btn">2</button>
+                <button class="page-btn">3</button>
+                <button class="page-btn"><i class="fas fa-chevron-left"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Banner -->
+    <section class="contact-banner">
+        <div class="container">
+            <div class="banner-content">
+                <h2>هل تبحث عن منتج محدد؟</h2>
+                <p>اتصل بنا الآن للحصول على أفضل الأسعار وعروض الجملة</p>
+                <div class="banner-buttons">
+                    <a href="tel:01026141639" class="btn btn-primary btn-lg">
+                        <i class="fas fa-phone-alt"></i> اتصل الآن: 010 26141639
                     </a>
-                    <a href="#contact" class="btn btn-secondary">
-                        <i class="fas fa-phone-alt"></i> اتصل بنا
+                    <a href="https://wa.me/201026141639" class="btn btn-success btn-lg" target="_blank">
+                        <i class="fab fa-whatsapp"></i> واتساب
                     </a>
-                </div>
-            </div>
-            <div class="hero-image">
-                <img src="images/background.jpg" alt="محاصيل زراعية">
-            </div>
-        </div>
-    </section>
-
-    <!-- Featured Products -->
-    <section class="featured-products">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">منتجاتنا المميزة</h2>
-                <p class="section-subtitle">أجود أنواع الفواكه والمحاصيل الزراعية</p>
-            </div>
-            
-            <div class="products-grid" id="featuredProducts">
-                <!-- سيتم ملؤها بواسطة JavaScript -->
-            </div>
-            
-            <div class="text-center">
-                <a href="project.html" class="btn btn-primary btn-lg">
-                    <i class="fas fa-eye"></i> عرض جميع المنتجات
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <!-- Why Choose Us -->
-    <section class="features">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">لماذا تختار خير مصر؟</h2>
-                <p class="section-subtitle">نتميز بمعايير عالمية في التصدير</p>
-            </div>
-            
-            <div class="features-grid">
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-award"></i>
-                    </div>
-                    <h3>جودة عالية</h3>
-                    <p>نلتزم بأعلى معايير الجودة العالمية في إنتاج وتصدير المحاصيل</p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-globe"></i>
-                    </div>
-                    <h3>تصدير عالمي</h3>
-                    <p>تصدير إلى أكثر من 20 دولة حول العالم</p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-shipping-fast"></i>
-                    </div>
-                    <h3>شحن سريع</h3>
-                    <p>شحن مباشر وسريع مع الحفاظ على جودة المنتج</p>
-                </div>
-                
-                <div class="feature-card">
-                    <div class="feature-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h3>شهادات دولية</h3>
-                    <p>جميع المنتجات معتمدة ومعها شهادات صحية</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- About Section -->
-    <section class="about" id="about">
-        <div class="container">
-            <div class="about-content">
-                <div class="about-text">
-                    <h2>من نحن</h2>
-                    <p>
-                        مكتب خير مصر للتصدير الزراعي، بقيادة الأستاذ/ رجب عادل، يمثل قصة نجاح مصرية في مجال التصدير الزراعي. 
-                        نفتخر بتقديم أجود المحاصيل المصرية إلى الأسواق العالمية منذ سنوات طويلة.
-                    </p>
-                    <p>
-                        نعمل في البحيرة - الخط الوسطاني - قرية شبل، ونسعى دائمًا لرفع اسم مصر عاليًا في مجال التصدير الزراعي.
-                    </p>
-                    <div class="stats">
-                        <div class="stat">
-                            <h3>+50</h3>
-                            <p>منتج زراعي</p>
-                        </div>
-                        <div class="stat">
-                            <h3>+20</h3>
-                            <p>دولة</p>
-                        </div>
-                        <div class="stat">
-                            <h3>100%</h3>
-                            <p>رضا العملاء</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="about-image">
-                    <img src="images/background.jpg" alt="مكتب خير مصر">
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section class="contact" id="contact">
-        <div class="container">
-            <div class="section-header">
-                <h2 class="section-title">اتصل بنا</h2>
-                <p class="section-subtitle">نحن هنا لخدمتكم على مدار الساعة</p>
-            </div>
-            
-            <div class="contact-content">
-                <div class="contact-info">
-                    <div class="info-card">
-                        <div class="info-icon">
-                            <i class="fas fa-phone-alt"></i>
-                        </div>
-                        <div class="info-content">
-                            <h3>الهاتف</h3>
-                            <p dir="ltr">010 26141639</p>
-                        </div>
-                    </div>
-                    
-                    <div class="info-card">
-                        <div class="info-icon">
-                            <i class="fas fa-envelope"></i>
-                        </div>
-                        <div class="info-content">
-                            <h3>البريد الإلكتروني</h3>
-                            <p dir="ltr">ragp.pepo12@gmail.com</p>
-                        </div>
-                    </div>
-                    
-                    <div class="info-card">
-                        <div class="info-icon">
-                            <i class="fas fa-map-marker-alt"></i>
-                        </div>
-                        <div class="info-content">
-                            <h3>العنوان</h3>
-                            <p>البحيرة - الخط الوسطاني - قرية شبل</p>
-                        </div>
-                    </div>
-                    
-                    <div class="info-card">
-                        <div class="info-icon">
-                            <i class="fas fa-clock"></i>
-                        </div>
-                        <div class="info-content">
-                            <h3>ساعات العمل</h3>
-                            <p>24/7 على مدار الساعة</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="contact-map">
-                    <div class="map-container">
-                        <h3>موقعنا على الخريطة</h3>
-                        <div id="map" class="map-placeholder">
-                            <button class="btn btn-primary btn-lg" onclick="openGPS()">
-                                <i class="fas fa-map-marked-alt"></i> <a href="https://maps.app.goo.gl/GLWzmgDGnx2vC2Tk9?g_st=ac">افتح GPS</a>
-                            </button>
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>
@@ -313,30 +183,29 @@
                     <ul>
                         <li><a href="index.html">الرئيسية</a></li>
                         <li><a href="project.html">منتجاتنا</a></li>
-                        <li><a href="#about">من نحن</a></li>
-                        <li><a href="#contact">اتصل بنا</a></li>
+                        <li><a href="index.html#about">من نحن</a></li>
+                        <li><a href="index.html#contact">اتصل بنا</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-col">
                     <h4>منتجاتنا</h4>
                     <ul>
-                        <li><a href="project.html">فواكه</a></li>
-                        <li><a href="project.html">محاصيل</a></li>
-                        <li><a href="project.html">تصدير بالجملة</a></li>
-                        <li><a href="project.html">عروض خاصة</a></li>
+                        <li><a href="#mango">مانجو</a></li>
+                        <li><a href="#pineapple">أناناس</a></li>
+                        <li><a href="#guava">جوافة</a></li>
+                        <li><a href="#lemon">ليمون</a></li>
                     </ul>
                 </div>
                 
                 <div class="footer-col">
-                    <h4>اشترك في النشرة البريدية</h4>
-                    <p>ابق على اطلاع بآخر العروض والمنتجات</p>
-                    <form class="newsletter-form">
-                        <input type="email" placeholder="بريدك الإلكتروني" required>
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fas fa-paper-plane"></i>
-                        </button>
-                    </form>
+                    <h4>التصدير</h4>
+                    <ul>
+                        <li><a href="#">دول أوروبية</a></li>
+                        <li><a href="#">دول عربية</a></li>
+                        <li><a href="#">تصدير بالجملة</a></li>
+                        <li><a href="#">متطلبات التصدير</a></li>
+                    </ul>
                 </div>
             </div>
             
@@ -349,19 +218,10 @@
 
     <!-- JavaScript -->
     <script src="js/main.js"></script>
+    <script src="js/products.js"></script>
     <script>
-        function openGPS() {
-            // إحداثيات مكان المكتب (يمكن تغييرها للإحداثيات الصحيحة)
-            const latitude = 31.0413;
-            const longitude = 30.4753;
-            
-            // افتح موقع GPS على Google Maps
-            window.open(`https://www.google.com/maps?q=${latitude},${longitude}`, '_blank');
-        }
-        
         // تحديث السنة الحالية
         document.getElementById('currentYear').textContent = new Date().getFullYear();
     </script>
-    
 </body>
 </html>
